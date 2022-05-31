@@ -8,6 +8,7 @@ phases:
             - echo Installing source NPM dependencies...
             - npm install
             - npm install -g @angular/cli
+            - npm link webpack
     build:
         commands:
             - echo Build started on `date`
