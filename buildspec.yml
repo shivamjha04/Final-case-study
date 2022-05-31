@@ -15,8 +15,6 @@ phases:
             - ng build --configuration=production
     post_build:
          commands:
-            - cd dist/$APP_NAME
-            - ls -la
             - echo Build completed on `date`
 artifacts:
     files:
